@@ -1,0 +1,120 @@
+
+
+button{
+	display: inline;
+	text-align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+
+.buttons{
+
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+
+
+#puzzle{
+	position: relative;
+	width: 325px;
+	height: 325px;
+	margin: 0 auto;
+	margin-top: 80px;
+	visibility: hidden;
+}
+
+
+.displayIMG {
+	width: 160px;
+	height: 160px;
+	float: left;
+}
+
+
+.timer{
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	margin-top: 20px;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+}
+
+.divIMG {
+	margin-top: 20px;
+    width: 300px;
+    height: 160px;
+    margin: auto;
+	text-align: center;
+	display: flex;
+}
+
+.cyfra {
+	height: 21px;
+	width: 16px;
+	float: left;
+}
+
+.kropka {
+	height: 21px;
+	width: 9px;
+	float: left;
+	background-image: url('cyferki/dot.gif');
+}
+
+.dwukropka {
+	height: 21px;
+	width: 9px;
+	float: left;
+	background-image: url('cyferki/colon.gif');
+}
+
+#content {
+	width: 160px;
+	height: 160px;
+	overflow: auto;
+	display: flex;
+	float: left;
+	overflow: hidden;
+}
+
+#sliderButtonL {
+	width: 50px;
+	height: 160px;
+	float: left;
+	background-image: url('lArrow.png');
+	top: 105px;
+	margin-right: 20px;
+}
+
+#sliderButtonR {
+	width: 50px;
+	height: 160px;
+	float: left;
+	background-image: url('rArrow.png');
+	top: 105px;
+	margin-left: 20px;
+}
+
+.label {
+	color: white;
+}
+
+th {
+	color: white;
+	border: solid 3px white;
+	width: 200px;
+}
+
+#tabelaWynikow {
+	visibility: hidden;
+}

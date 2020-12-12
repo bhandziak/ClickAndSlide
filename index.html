@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Projekt speedrun</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="divIMG">
+		<div id="sliderButtonL"></div>
+		<div id="content">
+			<img src="1.jpg" class="displayIMG">
+			<img src="2.jpg" class="displayIMG">
+			<img src="3.jpg" class="displayIMG">
+			<img src="1.jpg" class="displayIMG">
+		</div>
+		<div id="sliderButtonR"></div>
+	</div>
+	<div class="buttons">
+		<button id="btn3">3 x 3</button>
+		<button id="btn4">4 x 4</button>
+		<button id="btn5">5 x 5</button>
+		<button id="btn6">6 x 6</button>
+	</div>
+	<div class="timer">
+		<div class="cyfra" style="background-image: url('cyferki/c0.gif');"></div>
+		<div class="cyfra" style="background-image: url('cyferki/c0.gif');"></div>
+		<div class="dwukropka" style="background-image: url('cyferki/colon.gif');"></div>
+		<div class="cyfra" style="background-image: url('cyferki/c0.gif');"></div>
+		<div class="cyfra" style="background-image: url('cyferki/c0.gif');"></div>
+		<div class="dwukropka" style="background-image: url('cyferki/colon.gif');"></div>
+		<div class="cyfra" style="background-image: url('cyferki/c0.gif');"></div>
+		<div class="cyfra" style="background-image: url('cyferki/c0.gif');"></div>
+		<div class="kropka" style="background-image: url('cyferki/dot.gif');"></div>
+		<div class="cyfra" style="background-image: url('cyferki/c0.gif');"></div>
+		<div class="cyfra" style="background-image: url('cyferki/c0.gif');"></div>
+		<div class="cyfra" style="background-image: url('cyferki/c0.gif');"></div>
+
+	</div>
+	<div id="puzzle"></div>
+
+	<div id="tabelaWynikow">
+		<p class="label">Zwycięzcy 3x3:</p><br>
+		<table id="3x3"></table>
+		<p class="label">Zwycięzcy 4x4:</p><br>
+		<table id="4x4"></table>
+		<p class="label">Zwycięzcy 5x5:</p><br>
+		<table id="5x5"></table>
+		<p class="label">Zwycięzcy 6x6:</p><br>
+		<table id="6x6"></table>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
